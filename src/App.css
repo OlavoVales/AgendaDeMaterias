@@ -4,8 +4,26 @@
     box-sizing: border-box;
 }
 
+
 .cadastro {
     display: flex;
     justify-content: space-evenly;
     margin-top: 15px;
+}
+
+.horarios {
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+.i-component {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
 }

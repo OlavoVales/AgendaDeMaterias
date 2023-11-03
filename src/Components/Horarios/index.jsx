@@ -4,19 +4,25 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea, TextField, Select, Button } from '@mui/material';
+import Selecionar from '../Select';
+
 
 export default function Horarios() {
   return (
-    <Card sx={{ maxWidth: 1500 }}>
+    <Card sx={{ minWidth: 1500, minHeight: 200 }}>
       <CardContent>
+        <div className='title'>
         <Typography gutterBottom variant="h5" component="div">
-          Cadastro de Disciplina
+          Cadastro de Horários
         </Typography>
-        <Select/>
-        <Select/>
-        <Select/>
+        </div>
+        <div className='i-component'>
+        <Selecionar/>
+        <Selecionar/>
+        <Selecionar/>
         <TextField id="standard-basic" label="Selecionar" variant="standard" />
         <Button variant="contained">Cadastrar</Button>
+        </div>
         </CardContent>
     </Card>
   );

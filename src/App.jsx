@@ -10,12 +10,14 @@ function App() {
   return (
     <>
     <NavBar/>
-    <div className="cadastro">
+    <div className='cadastro'>
     <Professores/>
     <Disciplina/>
     <Turmas/>
     </div>
+    <div className='horarios'>
     <Horarios/>
+    </div>
     </>
   )
 }
