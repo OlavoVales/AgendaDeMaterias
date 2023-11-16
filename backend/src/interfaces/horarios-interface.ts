@@ -1,0 +1,1 @@
+// definindo a interface como o req.body(pesquisar mais sobre oque é o req.body tbm)
